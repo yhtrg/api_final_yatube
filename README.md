@@ -4,23 +4,24 @@
 
 ## **Как запустить проект**
 ### Клонировать репозиторий и вписать его в командой строке
-git clone https://github.com/yhtrg/api_final_yatube.git
+> git clone https://github.com/yhtrg/api_final_yatube.git
 ### Создать и активировать виртуальное окружение
-python -m venv venv
-source venv/Scripts/activate
-python -m pip install --upgrage pip
+> python -m venv venv
+> source venv/Scripts/activate
+> python -m pip install --upgrage pip
 ### Установить из файла зависимости
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ### Выполнить миграции
-python manage.py migrate
+> python manage.py migrate
 ### Запустить проект
-python manage.py runserver
+> python manage.py runserver
 
 ## **Примеры запросов на сервере**
 >{
 >   "text": "Тестовый пост 1",
 >   "group": 1
 >}
+
 ## **Пример ответа**
 >{
 >    "id": 1,
@@ -30,3 +31,11 @@ python manage.py runserver
 >    "image": null,
 >    "group": 1
 >}
+
+## Технологии
+- Python 3.8
+- Django
+- Rest Framework Django
+
+## Автор
+yhtrg https://github.com/yhtrg
